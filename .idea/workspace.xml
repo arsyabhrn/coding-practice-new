@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4802a74-a829-41be-80a0-db21a246eaec" name="Changes" comment="GIT INIT">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/CountingBits/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/FizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/IsSubquence/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/LinkedListCycle/Problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/LinkedListCycle/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/LinkedListCycle/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/Palindrome/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/SubstringComparisons/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/TwoSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/ValidAnagram/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,29 +41,49 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/arsya/DEV/coding-practice/src/test/java/org/practice",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/org/practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.practice.Palindrome" />
+      <recent name="org.practice.IsSubquence" />
+      <recent name="org.practice.FizzBuzz" />
+      <recent name="org.practice.CountingBits" />
       <recent name="org.practice.ContainsDuplicate" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Solution.testContainsDuplicate">
-    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Palindrome">
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practice.Palindrome.Palindrome" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.practice.*" />
+          <option name="PATTERN" value="org.practice.Palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.practice" />
-      <option name="MAIN_CLASS_NAME" value="org.practice.AppTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.practice.ContainsDuplicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.practice.ContainsDuplicate" />
+      <option name="MAIN_CLASS_NAME" value="org.practice.ContainsDuplicate.Solution" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,6 +99,22 @@
       <option name="PACKAGE_NAME" value="org.practice.ContainsDuplicate" />
       <option name="MAIN_CLASS_NAME" value="org.practice.ContainsDuplicate.Solution" />
       <option name="METHOD_NAME" value="tesPlus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.practice.CountingBits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.practice.CountingBits" />
+      <option name="MAIN_CLASS_NAME" value="org.practice.CountingBits.Solution" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,9 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="JUnit.Solution" />
+        <item itemvalue="JUnit.Solution.test" />
         <item itemvalue="JUnit.Solution.testContainsDuplicate" />
         <item itemvalue="JUnit.Solution.tesPlus" />
-        <item itemvalue="JUnit.AppTest.testApp" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663594661275</updated>
-      <workItem from="1663594663185" duration="2270000" />
+      <workItem from="1663594663185" duration="6376000" />
     </task>
     <task id="LOCAL-00001" summary="GIT INIT">
       <created>1663596594352</created>
@@ -116,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663596594352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GIT INIT">
+      <created>1663596942386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663596942386</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
