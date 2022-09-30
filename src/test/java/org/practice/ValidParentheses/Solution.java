@@ -33,9 +33,9 @@ public class Solution {
 
     @Test
     public void testIsValid() {
-//        Assertions.assertTrue(isValid("()"));
-//        Assertions.assertTrue(isValid("(){}[]"));
-//        Assertions.assertFalse(isValid("(]"));
+        Assertions.assertTrue(isValid("()"));
+        Assertions.assertTrue(isValid("(){}[]"));
+        Assertions.assertFalse(isValid("(]"));
         Assertions.assertFalse(isValid("({[)"));
     }
 }
